@@ -15,8 +15,8 @@ public class AtentionController {
   public AtentionController() {
     Doctor doctor = new Doctor(0, "12832324-3", "Carlos Antonio Fuentes Smith", "Cardiología", "Carlos.fuentes.cardiologo@clinicauc.cl", "Avenida Las Condes 27312, Las Condes, Santiago", 982737323);
     Patient patient1 = new Patient(0, "10345678-9", "Alfredo Monsalve Fuenzalida", "Avenida Pedro Aguirre Cerda 2677, Cerrillos, Santiago", "Alfredomonsalve@gmail.com", 980834353);
-    Patient patient2 = new Patient(0, "7232323-K", "Carolina Carrasco Aguilar", "Pasaje Cerro Murallón 2575, Maipú, Santiago", "carolina.nails@gmail.com", 923230492);
-    Patient patient3 = new Patient(0, "20374832-0", "Alejandro López Aguirre", "Avenida Pedro Aguirre Cerda 2677, Cerrillos, Santiago", "Aj.lopezaguirre@gmail.com", 998909093);
+    Patient patient2 = new Patient(1, "7232323-K", "Carolina Carrasco Aguilar", "Pasaje Cerro Murallón 2575, Maipú, Santiago", "carolina.nails@gmail.com", 923230492);
+    Patient patient3 = new Patient(2, "20374832-0", "Alejandro López Aguirre", "Avenida Pedro Aguirre Cerda 2677, Cerrillos, Santiago", "Aj.lopezaguirre@gmail.com", 998909093);
 
     atentions.add(new Atention(0, LocalDate.of(2024,1,1), patient1, doctor, "Hipertensión arterial", "Control de la presión arterial mediante medicamentos como los inhibidores de la enzima convertidora de angiotensina (IECA) o los bloqueadores de los receptores de angiotensina (BRA)", "Es importante adoptar un estilo de vida saludable que incluya una dieta baja en sodio, ejercicio regular y evitar el consumo de tabaco y alcohol"));
     atentions.add(new Atention(1, LocalDate.of(2024, 1, 1), patient2, doctor, "Cardiopatía isquémica estable", "Uso de medicamentos antianginosos como los nitratos, beta-bloqueantes o calcioantagonistas, además de estatinas para controlar el colesterol", "El paciente debe ser educado sobre la importancia de controlar factores de riesgo modificables como la hipertensión, el colesterol alto y el tabaquismo, y seguir una dieta y ejercicio adecuados"));
